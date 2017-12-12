@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
-import axios from 'axios';
-import Home from './Home';
-import Navbar from './Navbar';
-import AllOrganisms from './AllOrganisms';
-import SingleOrganism from './SingleOrganism';
-import UserHome from './UserHome';
-import logo from './logo.svg';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import AllOrganisms from './components/AllOrganisms';
+import SingleOrganism from './components/SingleOrganism';
+import UserHome from './components/UserHome';
+// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {

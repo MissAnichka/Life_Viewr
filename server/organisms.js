@@ -7,6 +7,7 @@ api.get('/', (req, res, next) => {
         .then(organisms => res.json(organisms))
         .catch(next)
 })
+// also add get all where kingdom/species/etc
 
 api.get('/:OrganismId', (req, res, next) => {
     Organisms.findById(Number(req.params.OrganismId))
